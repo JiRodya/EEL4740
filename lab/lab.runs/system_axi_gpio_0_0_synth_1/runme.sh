@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/X_Projects/lab2/lab2.runs/system_axi_gpio_0_0_synth_1'
+HD_PWD='C:/git/EEL4740/lab/lab.runs/system_axi_gpio_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -2,31 +2,33 @@
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
 #  -string -flagsOSRD
-preplace port DDR -pg 1 -lvl 4 -x 990 -y 430 -defaultsOSRD
-preplace port FIXED_IO -pg 1 -lvl 4 -x 990 -y 460 -defaultsOSRD
-preplace port sws_4bits -pg 1 -lvl 4 -x 990 -y 360 -defaultsOSRD
-preplace port btns_4bits -pg 1 -lvl 4 -x 990 -y 80 -defaultsOSRD
-preplace port leds_4bits -pg 1 -lvl 4 -x 990 -y 220 -defaultsOSRD
-preplace inst processing_system7_0 -pg 1 -lvl 1 -x 220 -y 480 -defaultsOSRD
-preplace inst switches -pg 1 -lvl 3 -x 860 -y 360 -defaultsOSRD
-preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 580 -y 180 -defaultsOSRD
-preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 220 -y 300 -defaultsOSRD
-preplace inst buttons -pg 1 -lvl 3 -x 860 -y 80 -defaultsOSRD
-preplace inst led_ip -pg 1 -lvl 3 -x 860 -y 220 -defaultsOSRD
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 190 440 340 740
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 200 410
-preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 420 20 720
-preplace netloc processing_system7_0_DDR 1 1 3 NJ 440 NJ 440 970J
-preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ 460 NJ 460 NJ
-preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 430 80n
-preplace netloc switches_GPIO 1 3 1 NJ 360
-preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 750 160n
-preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 730 60n
-preplace netloc axi_gpio_0_GPIO 1 3 1 NJ 80
-preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 N 200
-preplace netloc led_ip_GPIO 1 3 1 NJ 220
-levelinfo -pg 1 0 220 580 860 990
-pagesize -pg 1 -db -bbox -sgen 0 0 1110 600
+preplace port DDR -pg 1 -lvl 4 -x 990 -y 470 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 990 -y 500 -defaultsOSRD
+preplace port sws_4bits -pg 1 -lvl 4 -x 990 -y 70 -defaultsOSRD
+preplace port btns_4bits -pg 1 -lvl 4 -x 990 -y 330 -defaultsOSRD
+preplace port leds_4bits -pg 1 -lvl 4 -x 990 -y 700 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 220 -y 520 -defaultsOSRD
+preplace inst switches -pg 1 -lvl 3 -x 860 -y 80 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 570 -y 320 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 220 -y 740 -defaultsOSRD
+preplace inst buttons -pg 1 -lvl 3 -x 860 -y 340 -defaultsOSRD
+preplace inst led_ip -pg 1 -lvl 3 -x 860 -y 700 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 420 410 160 720
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 620 410
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 420 140 750
+preplace netloc switches_ip2intc_irpt 1 0 4 30 150 NJ 150 730J 160 970
+preplace netloc buttons_ip2intc_irpt 1 0 4 10 130 NJ 130 740J 170 970
+preplace netloc processing_system7_0_DDR 1 1 3 NJ 480 NJ 480 970J
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ 500 NJ 500 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 430 220n
+preplace netloc switches_GPIO 1 3 1 NJ 70
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 710 60n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 N 320
+preplace netloc axi_gpio_0_GPIO 1 3 1 NJ 330
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 710 340n
+preplace netloc led_ip_GPIO 1 3 1 NJ 700
+levelinfo -pg 1 -10 220 570 860 990
+pagesize -pg 1 -db -bbox -sgen -10 0 1110 840
 "
 }
 {

@@ -1,0 +1,23 @@
+17:09:41 **** Auto Build of configuration Debug for project lab7 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab7.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab7.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab7.d" -MT"src/lab7.o" -o "src/lab7.o" "../src/lab7.c"
+'Finished building: ../src/lab7.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/lab7.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  38848	   2384	  23384	  64616	   fc68	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+
+17:09:42 Build Finished (took 676ms)
+
