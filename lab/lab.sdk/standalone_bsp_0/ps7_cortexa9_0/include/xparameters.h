@@ -179,7 +179,7 @@
 /******************************************************************/
 
 /* Definitions for driver GPIO */
-#define XPAR_XGPIO_NUM_INSTANCES 2
+#define XPAR_XGPIO_NUM_INSTANCES 3
 
 /* Definitions for peripheral BUTTONS */
 #define XPAR_BUTTONS_BASEADDR 0x41210000
@@ -197,6 +197,14 @@
 #define XPAR_SWITCHES_IS_DUAL 0
 
 
+/* Definitions for peripheral LED_IP */
+#define XPAR_LED_IP_BASEADDR 0x41220000
+#define XPAR_LED_IP_HIGHADDR 0x4122FFFF
+#define XPAR_LED_IP_DEVICE_ID 2
+#define XPAR_LED_IP_INTERRUPT_PRESENT 0
+#define XPAR_LED_IP_IS_DUAL 0
+
+
 /******************************************************************/
 
 /* Canonical definitions for peripheral BUTTONS */
@@ -212,6 +220,13 @@
 #define XPAR_GPIO_1_DEVICE_ID XPAR_SWITCHES_DEVICE_ID
 #define XPAR_GPIO_1_INTERRUPT_PRESENT 0
 #define XPAR_GPIO_1_IS_DUAL 0
+
+/* Canonical definitions for peripheral LED_IP */
+#define XPAR_GPIO_2_BASEADDR 0x41220000
+#define XPAR_GPIO_2_HIGHADDR 0x4122FFFF
+#define XPAR_GPIO_2_DEVICE_ID XPAR_LED_IP_DEVICE_ID
+#define XPAR_GPIO_2_INTERRUPT_PRESENT 0
+#define XPAR_GPIO_2_IS_DUAL 0
 
 
 /******************************************************************/

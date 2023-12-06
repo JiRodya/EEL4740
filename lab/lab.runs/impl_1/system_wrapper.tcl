@@ -70,15 +70,15 @@ set rc [catch {
   set_property board_part digilentinc.com:zybo-z7-20:part0:1.2 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/X_Projects/lab2/lab2.cache/wt [current_project]
-  set_property parent.project_path C:/X_Projects/lab2/lab2.xpr [current_project]
-  set_property ip_output_repo C:/X_Projects/lab2/lab2.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/git/EEL4740/lab/lab.cache/wt [current_project]
+  set_property parent.project_path C:/git/EEL4740/lab/lab.xpr [current_project]
+  set_property ip_output_repo C:/git/EEL4740/lab/lab.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
-  add_files -quiet C:/X_Projects/lab2/lab2.runs/synth_1/system_wrapper.dcp
+  add_files -quiet C:/git/EEL4740/lab/lab.runs/synth_1/system_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files C:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/system.bd
+  add_files C:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/system.bd
   set_param project.isImplRun false
   set_param project.isImplRun true
   link_design -top system_wrapper -part xc7z020clg400-1

@@ -23,29 +23,32 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/X_Projects/lab2/lab2.cache/wt [current_project]
-set_property parent.project_path C:/X_Projects/lab2/lab2.xpr [current_project]
+set_property webtalk.parent_dir C:/git/EEL4740/lab/lab.cache/wt [current_project]
+set_property parent.project_path C:/git/EEL4740/lab/lab.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:zybo-z7-20:part0:1.2 [current_project]
-set_property ip_output_repo c:/X_Projects/lab2/lab2.cache/ip [current_project]
+set_property ip_output_repo c:/git/EEL4740/lab/lab.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_vhdl -library xil_defaultlib C:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/hdl/system_wrapper.vhd
-add_files C:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/system.bd
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xdc]
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_board.xdc]
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2.xdc]
-set_property used_in_implementation false [get_files -all c:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all C:/X_Projects/lab2/lab2.srcs/sources_1/bd/system/system_ooc.xdc]
+read_vhdl -library xil_defaultlib C:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/hdl/system_wrapper.vhd
+add_files C:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/system.bd
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_board.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_axi_gpio_0_3/system_axi_gpio_0_3_board.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_axi_gpio_0_3/system_axi_gpio_0_3_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/ip/system_axi_gpio_0_3/system_axi_gpio_0_3.xdc]
+set_property used_in_implementation false [get_files -all C:/git/EEL4740/lab/lab.srcs/sources_1/bd/system/system_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
